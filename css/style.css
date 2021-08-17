@@ -287,8 +287,13 @@ p {
     -moz-transition: background-color 0.1s linear;
     -webkit-transition: background-color 0.1s linear;
     -o-transition: background-color 0.1s linear;
+    animation: mymove 10s ;
+    animation-delay: 14s;
 }
-
+@keyframes mymove {
+  from {bottom: 0px;}
+  to {bottom: -1000px;}
+}
 
 
 /* CSS Code */

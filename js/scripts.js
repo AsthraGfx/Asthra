@@ -160,6 +160,9 @@
         draggable: true }
         }
     });	
+	setTimeout(function() {
+    $('#popup').fadeOut('slow');
+}, 10000);
     /* -------------------
     Animated progress bars
     ---------------------*/

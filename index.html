@@ -910,6 +910,17 @@ for (i = 0; i < close.length; i++) {
         }
     }
 </script>
+	<script>
+    function closePopup() {
+	
+	var x = document.getElementById("popup");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+    }
+</script>
 <script type="text/javascript" src="js/plugins/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/plugins/moderniz.min.js"></script>

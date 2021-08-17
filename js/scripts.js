@@ -121,6 +121,10 @@
         navigation: false,
         navigationText : ['<i class="icon ion-chevron-left"></i>','<i class="icon ion-chevron-right"></i>'],
     });
+	
+setTimeout(function() {
+    $('#popup').fadeOut('slow');
+}, 10000);
     /* -------------------
     Parallax Sections
     ---------------------*/
@@ -160,9 +164,7 @@
         draggable: true }
         }
     });	
-	setTimeout(function() {
-    $('#popup').fadeOut('slow');
-}, 10000);
+	
     /* -------------------
     Animated progress bars
     ---------------------*/
